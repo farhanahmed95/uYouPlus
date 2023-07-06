@@ -13,12 +13,12 @@ on:
         type: string
       decrypted_youtube_url:
         description: "The direct URL to the decrypted YouTube ipa"
-        default: ""
+        default: "https://armconverter.com/decryptedappstore/download/544007664/com.google.ios.youtube/18.25.1?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjk4NzExODIsImlhdCI6MTY4ODYxNTk2NCwiZXhwIjoxNjg4NjI2NzY0LCJhcHBpZCI6NTQ0MDA3NjY0LCJhcHB2ZXIiOiIxOC4yNS4xIn0.GqVbyAoXuk5WsEZXLV3BV2Ef6UU7LxG0AE8nrQu3yxY"
         required: true
         type: string
       youtube_version:
         description: "The version of YouTube"
-        default: ""
+        default: "18.25.1"
         required: true
         type: string
       bundle_id:
